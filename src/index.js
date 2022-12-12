@@ -1,16 +1,6 @@
-import "./styles/index.scss";
+import { createRoot } from "react-dom/client";
+import App from "./components/App";
 
-const testObject = {
-  example1: 1,
-  example2: 2,
-  example3: 3,
-};
-
-const testObject2 = {
-  ...testObject,
-  example4: 4,
-  example3: -3,
-};
-
-console.log(testObject);
-console.log(testObject2);
+const container = document.getElementById("root");
+const root = createRoot(container);
+root.render(<App />);
