@@ -1,3 +1,5 @@
+import "./styles/index.scss";
+
 const testObject = {
   example1: 1,
   example2: 2,
