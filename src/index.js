@@ -4,4 +4,11 @@ const testObject = {
   example3: 3,
 };
 
+const testObject2 = {
+  ...testObject,
+  example4: 4,
+  example3: -3,
+};
+
 console.log(testObject);
+console.log(testObject2);
